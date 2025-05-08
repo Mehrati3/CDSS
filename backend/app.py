@@ -11,7 +11,7 @@ def load_model():
     """
     Load a pickled model from the specified path.
     """
-    model_path = 'model/heart_disease_model.pkl'  # Path to the pickled model
+    model_path = 'heart_disease_model.pkl'  # Path to the pickled model
     with open(model_path, 'rb') as file:
         model = pickle.load(file)
     return model
